@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+}
+
+.container{
+    width:100vw;
+    height:100vh;
+
+    background:#8ed3d8;
+
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    color: white;
+
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 25px 200px 100px 1fr 1fr 50px;
+    
+    box-sizing:border-box;
+
+
+
+}
+
+.container div{
+    padding:20px;
+}
+
+.search{
+    grid-column: 2 / 6;
+    background:#658ca6;
+    justify-content:space-between;
+    align-items:center;
+    display:flex;
+
+}
+
+.navBar{
+    grid-column: 1 / 2;
+    grid-row: 1 / a;
+    background:#394263;
+}
+
+.navBar a{
+    color:white;
+    text-decoration: none;
+}
+
+.navBar a:hover{
+    color:lightblue;
+}
+.navBar p{
+    padding:20px;
+}
+
+.helloUser{
+    grid-column: 2 / 6;
+
+    background:#e2e3e5;
+    color:#9fa7b3;
+
+    margin:10px;
+    margin-top:25px;
+    margin-bottom:10px;
+
+    justify-content:space-between;
+    display:flex;
+
+
+}
+
+.overviewBox{
+    background:#9fb5da;
+
+    margin:5px;
+    margin-left:10px;
+    margin-right:10px;
+
+    justify-content: space-between;
+    align-items: center;
+    display:flex;
+
+}
+
+.cardBox-big{
+    grid-column: 2 / 4;
+    grid-row: 4 / 6;
+
+    background:#82bdf6;
+
+    margin:5px;
+    margin-left:10px;
+    margin-right:10px;
+
+    justify-content: center;
+    display:flex;
+}
+
+.cardBox-small{
+    grid-column: 4 / 6;
+    background:#82bdf6;
+
+    margin:5px;
+    margin-left:10px;
+    margin-right:10px;
+
+    justify-content: center;
+    display:flex;
+
+}

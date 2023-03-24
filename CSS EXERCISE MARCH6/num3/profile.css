@@ -1,0 +1,48 @@
+body {
+    background-image:url('https://i.pinimg.com/564x/b6/1e/9d/b61e9d1dc98258f572367259fe954b34.jpg');
+    border: 0.5;
+    border-radius:1;
+    padding:20px;
+
+    font-family:cursive;
+
+
+}
+
+#hasbulla2{
+    height:50vh;
+    width:30vw;
+
+    margin-left:auto;margin-right:auto;
+    display:block;
+    position:float;
+}
+form{
+    background-color: aliceblue;
+    padding:20px;
+    border-radius: 25px;
+
+}
+label {
+    margin-bottom:10px;
+    padding:20px;
+    font-weight:bold;
+    font-size:25px;
+}
+
+input {
+    padding:10px;
+    border-radius: 15px;
+    width:98%;
+
+}
+
+textarea{
+    padding:10px;
+    width:98%;
+    resize:none;
+}
+
+
+
+
